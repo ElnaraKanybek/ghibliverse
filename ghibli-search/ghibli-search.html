@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghibli Films | Game Hub</title>
+    <link rel="stylesheet" href="./ghibli-search.css">
+    <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous">
+    </script>
+    <script type="module" defer src="./ghibli-search.js"></script>
+</head>
+<body>
+    <div class="page-container">
+        <div class="content-container">
+            <header class="page-header">
+                <h1 class="page-title">Ghibli Films</h1>
+                
+                <div class="search-section">
+                    <div class="search-box">
+                        <input 
+                            type="text" 
+                            id="searchInput" 
+                            placeholder="Search Movie Name..." 
+                            aria-label="Search for Studio Ghibli films"
+                            autocomplete="off"
+                        />
+                        <button id="searchButton" class="search-button" aria-label="Search">
+                            🔍
+                        </button>
+                    </div>
+                    <div id="suggestions" class="suggestions-container"></div>
+                </div>
+
+            </header>
+            
+            <main class="films-main">
+                <div id="loading" class="loading-state">
+                    <div class="spinner"></div>
+                    <p>Loading Ghibli films...</p>
+                </div>
+                
+                <div id="filmsContainer" class="films-container">
+                </div>
+                
+                <div id="noResults" class="no-results hidden">
+                    <p>No films found. Try a different search.</p>
+                </div>
+            </main>
+            
+            <footer class="page-footer">
+                <p>Data from <a href="https://ghibliapi.vercel.app" target="_blank">Studio Ghibli API</a></p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
