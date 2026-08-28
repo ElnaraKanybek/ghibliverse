@@ -4,7 +4,7 @@ This project was developed for Web Programming 1 course at John Abbott College.
  
 Go to demo: [Webpage Demo](https://github.com/ElnaraKanybek/ghibli-films-search#%EF%B8%8Fwebpage-demonstration) (click here)
  
-## 🗺️Overview
+## Overview
  
 * [Core Functionality](https://github.com/ElnaraKanybek/ghibli-films-search#core-functionality)
 * [Tech Stack](https://github.com/ElnaraKanybek/ghibli-films-search#%EF%B8%8Ftech-stack)
