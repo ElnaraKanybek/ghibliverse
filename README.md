@@ -1,4 +1,6 @@
+# GhibliVerse 🌿
 By [Elnara Kanybek](https://github.com/ElnaraKanybek)
+### A responsive Studio Ghibli film search app
  
 This project was developed for Web Programming 1 course at John Abbott College.
  
