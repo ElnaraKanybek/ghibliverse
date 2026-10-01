@@ -1,6 +1,7 @@
 # GhibliVerse 🌿
 By [Elnara Kanybek](https://github.com/ElnaraKanybek)
 ### A responsive Studio Ghibli film search app
+GhibliVerse is an interactive web app that uses the Studio Ghibli API to display and explore the studio's film collection. Users can browse films, search by title or description, and get instant autocomplete suggestions while typing. The responsive interface adapts across desktop and mobile screens, with detailed film cards for an easy browsing experience.
  
 Go to demo: [Webpage Demo](https://github.com/ElnaraKanybek/ghibli-films-search#%EF%B8%8Fwebpage-demonstration) (click here)
  
